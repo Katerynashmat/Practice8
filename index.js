@@ -46,6 +46,7 @@ app.get('*', (request, response) => {
   if(!ext){
     filePath += '.html';
   }
+  
   fs.readFile(filePath, (err, data) =>{
     if(err){
       throw err;
