@@ -25,10 +25,10 @@ app.use(allowCrossDomain);
 app.get('/', (request, response) => {
   response.json({ info: 'Node.js, Express, and Postgres API' })
 })
+
 app.get('/users', db.getTable)
 app.get('/users/:id', db.getStudentById)
 
 var server = app.listen(port, function () {
-  //var port = server.address().port;
   console.log("Server started at http://localhost:", port);
 });
