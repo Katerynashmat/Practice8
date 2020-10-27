@@ -18,6 +18,16 @@ const getTable = (request, response) =>{
     })
 }
 
+const getStudentById = (request, response) => {
+  const id = parseInt(request.params.id)
+  pool.query("SELECT * FROM public.student WHERE student.id = $1", [id], (error, results) => {
+    if (error) {
+      throw error
+    }
+    response.status(200).json(results.rows)
+})
+}
+
 
 // const getUsers = (request, response) => {
 //   pool.query('SELECT * FROM table_sample', (error, results) => {
@@ -41,5 +51,6 @@ const getTable = (request, response) =>{
 
 
 module.exports = {
-    getTable
+    getTable,
+    getStudentById
 }
