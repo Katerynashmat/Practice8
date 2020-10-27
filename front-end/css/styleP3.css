@@ -1,0 +1,330 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 сент. 2020 г., 18:43:57
+    Author     : User
+*/
+
+h1,h2,h3,h4,h5{
+    color: #0087de;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25pt;
+    display: block;
+    margin-right: auto;
+}
+
+button{
+    background-color: white;
+    color: #0087de;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 50pt;
+    display: block;
+    margin-right: auto;
+    margin-top: auto;
+    border: none;
+    outline: none;
+}
+
+
+h1{
+    font-size: 50pt;
+    margin-top: auto;
+}
+.student{
+    color: #0087de;
+    font-size: 25pt;
+    position: relative;
+    bottom: 40px;
+    display: block;
+    margin-right: auto;
+}
+p{
+    font-family: 'Montserrat', sans-serif; 
+    display: block;
+    margin-right: auto;
+    font-size: 16pt;
+}
+b{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    display: block;
+    margin-right: auto;
+}
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    list-style-type: none;
+    
+    
+}
+.Black{
+    
+}
+.foto{
+    width: 190px;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    bottom: 185px;
+}
+.contact{
+    position: relative;
+    display: block;
+    bottom: 205px;
+}
+.email{
+    position: relative;
+    top: -20px;
+    
+}
+.phone{
+    margin-bottom: -10px;
+}
+.adress{
+    padding: 1px;
+}
+.line1 {
+    display: block;
+    background-color: #C8C8C8;
+    height: 2px;
+    width: 100%;
+    margin-left: auto;
+    position: relative;
+    bottom: 130px;
+}
+.education{
+    position: relative;
+    display: block;
+    bottom: 585px;
+    left: 30.8%;
+}
+.line2 {
+    display: block;
+    background-color: #C8C8C8;
+    height: 2px;
+    width: 69.3%;
+    margin-left: auto;
+    bottom: -88px;
+    position: relative;
+}
+.line3 {
+    display: block;
+    background-color: #C8C8C8;
+    height: 2px;
+    width: 69.3%;
+    margin-left: auto;
+    position: relative;
+    bottom: -384px;
+}
+
+.Current{
+    width: 120px;
+    line-height: 35px;
+    position: relative;
+    bottom: 8px;
+}
+.Black2{
+    width:45%;
+}
+.Black{
+    position: relative;
+    left: 46%;
+    bottom: 96px;
+    font-size:20pt;
+    margin: 0px;
+}
+.Black1{
+    position: relative;
+    left: 20.8%;
+    bottom: 111px;
+    width: 38%;
+}
+.languages{
+    position: relative;
+    bottom: 685px;
+    left: 30.8%;
+}
+.lang{
+    position: relative;
+    right: 40px;
+    bottom: 12px;
+}
+.lang1{
+  margin-bottom: 30px;  
+}
+.aaaaaa{
+    display: flex; 
+    flex-direction: column;
+    float: right;
+}
+.ball {
+    display: flex; 
+    margin: 2%;
+    position: relative;
+    bottom: -108px;
+    
+    
+}
+.ball1{
+    margin-bottom: 24px; 
+}
+ .full {
+   display: block;
+   background-color: #0087de;
+   height: 20px;
+   border-radius: 20px;
+   width: 20px;
+   margin-bottom: 24px;
+   margin: 4px;
+}
+.empty {
+    display: block;
+    background-color: #FFFFFF;
+    height: 18px;
+    border-radius: 18px;
+    width: 18px;
+    margin: 4px;
+    margin-bottom: 24px;
+    border: 1px solid #0087de;
+}
+.hobbies{
+    position: relative;
+    bottom: 710px;
+    left: 30.8%;
+}
+.D{
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 20px;
+    left: 18%; 
+}
+@media (max-width:600px) { 
+    .line4{
+        width: 100%;
+        display: block;
+        background-color: #C8C8C8;
+        height: 2px;
+        position: relative;
+        top: 412px;
+    }
+    h1{
+        font-size: 35pt;
+        width: 50%;
+        margin-left: 0%;
+        margin-top: -1.5%;
+    }
+    .student{
+        font-size: 18pt;
+        margin: 0%;
+        bottom: 30px;
+    }
+    
+    .contact{
+        position: relative;
+        bottom: 208px;
+        
+    }
+    .email{
+        position: relative;
+        top: -30px;
+    }
+    .phone{
+        margin-bottom: -15px;
+    }
+    .line1 {
+        width: 100%;
+        left: 0px;
+    }
+    .education{
+        position: relative;
+        bottom: 265px;
+        left: 0px;
+        
+    }
+    .line2 {
+        width: 99.5%;
+        bottom: -178px;
+    }
+    .Current{
+        position: relative;
+        bottom: 35px;
+    }
+    .Black2{
+        width:70%;
+        position: relative;
+        bottom: 30px;
+    }
+    .Black1{
+        position: relative;
+        left: 32%;
+        bottom: 143px;
+        width: 70%;
+    }
+    .languages{
+        position: relative;
+        bottom: 445px;
+        left: 0px;
+    }
+    .lang{
+        position: relative;
+        
+        bottom: 20px;
+    }
+    .lang1{
+      margin-bottom:20px;  
+    }
+    .line3{
+        bottom: -368px;
+        width: 100%;
+    }
+    .ball {
+        margin: 2%;
+        position: relative;
+        bottom: -388px;
+        
+    }
+    .ball1{
+        margin-bottom: 22px; 
+    }
+     .full {
+       height: 15px;
+       border-radius: 15px;
+       width: 15px;
+       margin-bottom: 22px;
+       margin: 3px;
+    }
+    .empty {
+        height: 13.5px;
+        border-radius: 13.5px;
+        width: 13.5px;
+        margin: 3px;
+        margin-bottom: 22px;
+    }
+    .hobbies{
+        position: relative;
+        bottom: 500px;
+        left: 0px;
+    }
+    .D{
+        position: relative;
+        left: 27%;
+        bottom: 25px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:480px) {
+    .line4{
+        top: 445px;
+    }
+    .line3{
+        bottom: -405px;
+    }
+    .ball{
+        bottom: -415px;
+    }
+}

@@ -1,7 +1,0 @@
-"Kateryna Shmat"	"Kyiv"	"88-099-44"	"katushkashmat@gmail.com"
-"Tracey Ramos"	"Lviv"	"88-099-42"	"tracey.ramos@reqres.in"
-"Michael Lawson"	"Lviv"	"88-099-43"	"michael.lawson@reqres.in"
-"Lindsay Ferguson"	"London"	"88-099-45"	"lindsay.ferguson@reqres.in"
-"Tobias Funke"	"Tokio"	"88-099-46"	"tobias.funke@reqres.in"
-"George Edwards"	"New York"	"88-099-47"	"george.edwards@reqres.in"
-"Rachel Howell"	"Moscow"	"88-099-48"	"rachel.howell@reqres.in"
